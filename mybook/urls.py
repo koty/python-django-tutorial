@@ -7,5 +7,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^cms/', include('cms.urls', namespace='cms')),   # ←ここを追加
+    url(r'^cms/', include('cms.urls', namespace='cms')),
+    url(r'^api/', include('api.urls', namespace='api')),
 )
