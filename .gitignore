@@ -13,6 +13,11 @@ lib64
 .project
 .settings/
 
+# pycharm,intellj settings
+.idea/
+
+
+# else... python specific
 __pycache__/
 *.py[cod]
 
