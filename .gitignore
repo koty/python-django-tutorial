@@ -12,3 +12,7 @@ lib64
 # eclipse settings
 .project
 .settings/
+
+__pycache__/
+*.py[cod]
+
