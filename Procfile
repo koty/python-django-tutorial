@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:$PORT mybook:app
+gunicorn --env DJANGO_SETTINGS_MODULE=mybook.settings mybook.wsgi --log-file -
